@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13b04a49-6579-414d-b34f-cf7577a1d5a6" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file leaf-file-name="_navigation.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="306">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -74,12 +73,14 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation_links.html" />
         <option value="$PROJECT_DIR$/app/views/layouts/_message.html" />
         <option value="$PROJECT_DIR$/app/views/layouts/_message.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html" />
         <option value="$PROJECT_DIR$/app/views/pages/about.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pages/legal.html" />
         <option value="$PROJECT_DIR$/app/views/pages/legal.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navigation_links.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.erb.html" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_footer.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -149,13 +150,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Labo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Labo1" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Labo1" type="b2602c69:ProjectViewProjectNode" />
@@ -303,7 +297,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1516630861190</updated>
-      <workItem from="1516630862395" duration="4282000" />
+      <workItem from="1516630862395" duration="5539000" />
     </task>
     <task id="LOCAL-00001" summary="CSS - Mise en forme de la première page">
       <created>1516633613214</created>
@@ -319,11 +313,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516634077081</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Pages statiques">
+      <created>1516635173760</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516635173760</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4282000" />
+    <option name="totallyTimeSpent" value="5539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1366" height="706" extended-state="6" />
@@ -358,7 +359,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="CSS - Mise en forme de la première page" />
     <MESSAGE value="Vue partielle pour la navbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vue partielle pour la navbar" />
+    <MESSAGE value="Pages statiques" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pages statiques" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -477,14 +479,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -501,10 +495,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navigation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        <state relative-caret-position="379">
+          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
